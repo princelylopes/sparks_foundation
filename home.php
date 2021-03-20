@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
      <!-- Compiled and minified CSS -->
      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
-
+  
     <!-- Compiled and minified JavaScript -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
     <link rel="stylesheet" href="styles.css">
@@ -40,9 +40,9 @@
 </u>
 <?php
 $servername = "localhost";
-$username = "id16417071_princely";
-$password = "w-!<S24~FJ|^!h$";
-$db_name="id16417071_banking1";
+$username = "username";
+$password = "password";
+$db_name="database_name";
 
 $con = mysqli_connect($servername,$username,$password,$db_name);
 
